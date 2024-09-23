@@ -18,3 +18,8 @@ function Clear(){
 function del(){
     outputScreen.value = outputScreen.value.slice(0,-1)
 }
+
+const text = document.getElementById('text');
+
+text.textContent = 'Created by';
+
